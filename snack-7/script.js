@@ -21,3 +21,12 @@ const students = [
 
 // Recupera i dati dello studente con id 2
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
+
+
+const studente = students.find(function(valori){
+  if (valori.id === 2 ){
+    return valori.id}
+    else{return false}
+})
+
+console.log(studente)
